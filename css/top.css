@@ -1,0 +1,1231 @@
+body,html{
+	width: 100%;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+h2{
+	font-size: 30px;
+	color: #444444;
+}
+
+h3{
+	font-size: 20px;
+	color: #444444;
+	margin: 0 auto;
+}
+
+span{
+	color: #ff0000;
+}
+
+.mv{
+	width: 100%;
+}
+
+.mv_sp{
+	display: none;
+}
+
+.staffblog{
+	display: block;
+	width: 45px;
+	height: 191px;
+	border-radius: 8px 0 0px 8px;
+	font-size: 16px;
+	writing-mode: vertical-rl;/* 文字縦書き */
+	background-color: #fff300;
+	position: fixed;/* 付いてくるスタッフブログ */
+  	top: 200px;/* 付いてくるスタッフブログ */
+  	right: 0;/* 付いてくるスタッフブログ */
+  	z-index: 300;
+}
+
+.staffblog p{
+	box-sizing: border-box;
+}
+
+.staffblog a{
+	display: block;
+	color: #000;
+	padding: 0 9px 0 11px;
+	box-sizing: border-box;
+}
+
+.staffblog a:after{
+	color: #000;
+}
+
+.staffblog a:hover{
+	text-decoration: none;
+}
+
+.staffblog_sp{
+	display: none;
+}
+
+.service{
+	padding-top: 80px;
+}
+
+.s_sentence{
+	font-size: 16px;
+	margin-top: 22px;
+}
+
+.service_box{
+	display: flex;
+	justify-content: space-between;
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.service_box1,.service_box2,.service_box3{
+	width: 294px;
+	height: 399px;
+	border: 1px solid #e0c722;
+	padding: 20px;
+	box-sizing: border-box;
+	box-shadow: 5px 5px #e1c722;
+}
+
+.s_img{
+	padding: 0px 25px 15px 25px;
+}
+
+.s_box_sen{}
+
+.s_box_sen h3{
+	font-size: 20px;
+	color: #444444;
+	margin: 0 auto;
+}
+
+.s_box_sen p{
+	font-size: 16px;
+	color: #444444;
+	text-align: left;
+}
+
+.br_sp{
+	display: none;
+}
+
+
+
+
+.performance{
+	padding-top: 95px;
+	background-color: #f5f5f5;
+	background-image: url("../img/bg_performance_01.png");
+	background-repeat:no-repeat;
+	padding-bottom: 102px;
+}
+
+.p_sentence{
+	font-size: 16px;
+	margin-top: 22px;
+}
+
+.performance_box{
+	display: flex;
+	justify-content: space-between;
+	width: 69%;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+
+.p_img_sp{
+	display: none;
+}
+
+
+
+
+
+
+
+.company{
+	background-image: url('../img/bg_company_01.jpg');
+	background-repeat:no-repeat;
+	background-size:100% auto;/*この場合は高さが自動設定*/
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 33px;
+}
+
+.c_whitebox{
+	max-width: 1000px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #fff;
+	background: rgba(255,255,255,0.7);/* 白の半透明（赤,緑,青,透明度） */
+	box-sizing: border-box;
+}
+
+
+
+
+
+.access{
+	padding-top: 93px;
+}
+
+.a_sen{
+	max-width: 856px;
+	width: 100%;
+	font-size: 16px;
+	margin: 0 auto;
+	padding-top: 34px;
+	margin-bottom: 27px;
+}
+
+.a_sen p{
+	text-align: left;
+}
+
+.a_title{
+	font-weight: bold;
+}
+
+.a_sen_sen{
+	margin-left: 15px;
+}
+
+.a_sen_bet{
+	margin-bottom: 32px;
+}
+
+.google{
+	position: relative;
+	z-index: 500;
+}
+
+.map_sp{
+	display: none;
+}
+
+
+
+
+
+.news{
+	background-image: url('../img/bg_news_01.jpg');
+	background-repeat:no-repeat;
+	background-size:100% auto;/*この場合は高さが自動設定*/
+	background-size: cover;
+	padding-top: 72px;
+	padding-bottom: 44px;
+}
+
+
+.n_whitebox{
+	max-width: 1000px;
+	width: 100%;
+	height: 730px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding-top: 40px;
+	background-color: #fff;
+	background: rgba(255,255,255,0.8);/* 白の半透明（赤,緑,青,透明度） */
+	box-sizing: border-box;
+}
+
+.twitter{
+	width: 600px;
+	height: 648px;
+	margin: 0 auto;
+	border-radius: 25px;
+}
+
+.twitter_sp{
+	display: none;
+}
+
+
+
+
+
+.contact{
+	background-color: #f2f2f2;
+	padding-top: 64px;
+	padding-bottom: 110px;
+}
+
+.c_sen{
+	font-size: 16px;
+	margin: 16px 0 29px 0;
+}
+
+.tel_box{
+	font-size: 16px;
+	width: 597px;
+	height: 139px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	padding-top: 25px;
+	box-sizing: border-box;
+}
+
+.tel_sen{}
+
+.tel_no{
+	font-size: 48px;
+	font-weight: bold;
+	color: #222;
+}
+
+.tel_no a{
+	color: #222;
+}
+
+.tel_no a:after{
+	color: #222;
+}
+
+.form_box{
+	max-width: 1000px;
+	width: 100%;
+	height: 816px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding-top: 52px;
+	box-sizing: border-box;
+}
+
+.form_title{
+	font-size: 20px;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+
+/* アイコンCSS
+
+/* ------------------------------------------------------------------------ */
+
+.i_left{/* 左空き */
+	margin-left: 15px;
+}
+
+.i_right{/* 右空き */
+	margin-right: 3px;
+}
+
+.i_top{/* 上空き */
+	margin-top: 3px;
+}
+
+.i_bottom{/* 下空き */
+	margin-bottom: 3px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* CAMPANYテーブル
+
+/* ------------------------------------------------------------------------ */
+.c_table{
+	font-size: 16px;
+	padding: 0 100px;
+	margin-top: 28px;
+}
+
+.c_table th {
+    width: 125px;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: baseline;
+}
+
+.c_table td {
+    text-align: left;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.corporation {
+    overflow: hidden;
+    display: flex;
+	justify-content: space-between;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* FORMテーブル
+
+/* ------------------------------------------------------------------------ */
+.f_table{
+	width: 600px;
+	margin: 30px auto;
+	font-size: 16px;
+}
+
+.f_table th {
+    width: 190px;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: baseline;
+}
+
+.f_table td {
+    text-align: left;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.radio_btn1{
+	padding-bottom: 16px;
+}
+
+.radio_btn2{}
+
+.txtarea_box{}
+
+.txt_area{
+	width : 100%;
+	height : 120px;
+	margin-bottom : 12px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#ffffff));
+	border: 1px solid #ccc;
+}
+
+.txt_box_s{
+	width: 200px;
+	height: 24px;
+	margin-bottom: 2px;
+	margin-right: 10px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#ffffff));
+	border: 1px solid #ccc;
+}
+
+.txt_box_l{
+	width: 300px;
+	height: 24px;
+	margin-bottom: 2px;
+	margin-right: 10px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#ffffff));
+	border: 1px solid #ccc;
+}
+
+.txt_sen{
+	font-size: 14px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* ボタン
+
+/* ------------------------------------------------------------------------ */
+
+.se_btn{
+	width: 250px;
+	height: 54px;
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 80px;
+	background-color: #fff300;
+}
+
+.se_btn p{
+	font-size: 16px;
+}
+
+.se_btn a{
+	display: block;
+	color: #000000;
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+
+.se_btn a:hover{
+	text-decoration: none;
+	opacity: 0.6;
+}
+
+.se_btn a:after{
+	color: #000000;
+}
+
+.pe_btn{
+	width: 250px;
+	height: 54px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background-color: #fff300;
+}
+
+.pe_btn p{
+	font-size: 16px;
+}
+
+.pe_btn a{
+	display: block;
+	color: #000000;
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+
+.pe_btn a:hover{
+	text-decoration: none;
+	opacity: 0.6;
+}
+
+.pe_btn a:after{
+	color: #000000;
+}
+
+
+.co_btn{
+	width: 235px;
+	height: 54px;
+	margin: 0 auto;
+	background-color: #fff300;
+	margin-top: 28px;
+}
+
+.co_btn p{
+	font-size: 16px;
+}
+
+.co_btn a{
+	display: block;
+	color: #000000;
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+
+.co_btn a:hover{
+	text-decoration: none;
+	opacity: 0.6;
+}
+
+.co_btn a:after{
+	color: #000000;
+}
+
+
+.fo_btn{
+	width: 250px;
+	height: 54px;
+	margin: 0 auto;
+	margin: 0 auto;
+	background-color: #fff300;
+	margin-top: 28px;
+}
+
+.fo_btn p{
+	font-size: 16px;
+}
+
+.fo_btn a{
+	display: block;
+	color: #000000;
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+
+.fo_btn a:hover{
+	text-decoration: none;
+	opacity: 0.6;
+}
+
+.fo_btn a:after{
+	color: #000000;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+
+/* サービスのh2の線
+
+/* ------------------------------------------------------------------------ */
+
+.s_line{
+	position: relative;
+	display: inline-block;
+	padding: 0 165px;
+}
+
+.s_line:before,.s_line:after{
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	width: 135px;
+	height: 2px;
+	background-color: #000;
+	content: '';
+}
+
+.s_line:before{
+	left: 0;
+}
+
+.s_line:after{
+	right: 0;
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+/* パフォーマンス、会社案内、アクセス、ニュースのh2の線
+
+/* ------------------------------------------------------------------------ */
+
+.pcan_line{
+	position: relative;
+	display: inline-block;
+	padding: 0 90px;
+}
+
+.pcan_line:before,.pcan_line:after{
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	width: 60px;
+	height: 2px;
+	background-color: #000;
+	content: '';
+}
+
+.pcan_line:before{
+	left: 0;
+}
+
+.pcan_line:after{
+	right: 0;
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+/* お問い合わせのh2の線
+
+/* ------------------------------------------------------------------------ */
+
+.c_line{
+	position: relative;
+	display: inline-block;
+	padding: 0 110px;
+}
+
+.c_line:before,.c_line:after{
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	width: 80px;
+	height: 2px;
+	background-color: #000;
+	content: '';
+}
+
+.c_line:before{
+	left: 0;
+}
+
+.c_line:after{
+	right: 0;
+}
+
+
+
+
+/* ------------------------------------------------------------------------ */
+
+/* 色指定
+
+/* ------------------------------------------------------------------------ */
+.gray{
+	color: #444444;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------ */
+
+/* レスポンシブ
+
+/* ------------------------------------------------------------------------ */
+
+/* @mediaの後ろに半角スペース必要 */
+/* ########### 599px以下（スマホ）今回は767px以下 ########### */
+@media (max-width: 767px) {
+
+	body{
+		width: 100%;
+		background-color: #fff;
+	}
+
+	h2{
+		font-size: 20px;
+		color: #444444;
+	}
+
+	h3{
+		font-size: 20px;
+		color: #444444;
+		margin: 0 auto;
+		text-align: left;
+	}
+
+	.i_left_sp{
+		margin-left: 3px;
+	}
+
+	.f_sen{
+		display: none;
+	}
+
+	.staffblog_sp{
+		display: block;
+		width: 25%;
+		max-height: 55px;
+		background-color: #fff300;
+		margin: 2% 0;
+		border-radius: 5px;
+		box-sizing: border-box;
+		margin-left: calc(100% - 76%);
+	}
+
+	.staffblog_sp p{
+		width: 58px;
+		margin: 0 auto;
+		padding-top: 9px;
+		box-sizing: border-box;
+	}
+
+
+	.mv_sp{
+		display: block;
+		width: 100%;
+	}
+
+	.mv{
+		display: none;
+	}
+
+	.service{
+		padding-top: 20px;
+		width: 100%;
+		background-color: #fff;
+		padding-bottom: 35px;
+	}
+
+
+
+	.s_sentence{
+		width: 90%;
+		text-align: left;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	.service_box{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 40px;
+	}
+
+	.service_box1{
+		display: flex;
+		width: 100%;
+		height: auto;
+		border: 1px solid #e0c722;
+		padding: 5%;
+		margin-bottom: 30px;
+		box-sizing: border-box;
+		box-shadow: 5px 5px #e1c722;
+	}
+
+	.service_box2{
+		display: flex;
+		width: 100%;
+		height: auto;
+		border: 1px solid #e0c722;
+		padding: 5%;
+		margin-bottom: 30px;
+		box-sizing: border-box;
+		box-shadow: 5px 5px #e1c722;
+	}
+
+	.service_box3{
+		display: flex;
+		width: 100%;
+		height: auto;
+		border: 1px solid #e0c722;
+		padding: 5%;
+		box-sizing: border-box;
+		box-shadow: 5px 5px #e1c722;
+	}
+
+	.s_img{
+		width: 45%;
+		padding: 30px 0;
+		box-sizing: border-box;
+	}
+
+	.s_box_sen{
+		width: 55%;
+		margin: 0 5%;
+	}
+
+	.br_sp{
+		display: block;
+	}
+
+	.br_pc{
+		display: none;
+	}
+
+
+
+/* ------------------------------------------------------------------------ */
+
+/* スマホ用ボタン
+
+/* ------------------------------------------------------------------------ */
+
+
+	.se_btn{
+		width: 91%;
+		height: 54px;
+		margin: 0 auto;
+		margin-top: 30px;
+		background-color: #fff300;
+	}
+	.pe_btn{
+		width: 91%;
+		height: 54px;
+		margin: 0 auto;
+		margin-top: 30px;
+		background-color: #fff300;
+	}
+	.co_btn{
+		width: 100%;
+		height: 54px;
+		margin: 0 auto;
+		margin-top: 30px;
+		background-color: #fff300;
+
+	}
+	.fo_btn{
+		width: 100%;
+		height: 54px;
+		margin: 0 auto;
+		margin-top: 30px;
+		background-color: #fff300;
+	}
+
+/* ------------------------------------------------------------------------ */
+
+
+
+
+
+	.performance{
+		width: 100%;
+		background-color: #f5f5f5;
+		background-image: none;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+
+	.p_sentence{
+		width: 90%;
+		font-size: 16px;
+		margin: 0 auto;
+		margin-top: 22px;
+		text-align: left;
+	}
+
+	.performance_box{
+		display: none;
+	}
+
+	.performance_box_sp{
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	.p_img_sp{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.p_img{
+		display: none;
+	}
+
+	.pe_btn{
+		width: 80%;
+		margin-top: 24px;
+		margin-bottom: 0px;
+	}
+
+	.bar{
+		width: 79%;
+		height: 5px;
+		margin: 0 auto;
+		margin-top: 5px;
+		margin-left: 11%;
+		background-color: #D3D3D3;
+		border-radius: 15px;
+	}
+
+
+
+
+
+
+	.company{
+		width: 100%;
+		height: auto;
+		background-image: url('../img/SP/bg_company_01_sp.jpg');
+		background-repeat:no-repeat;
+		background-size:100% auto;/*この場合は高さが自動設定*/
+		margin: 0px auto 0px;
+		background-size: cover;
+	}
+
+	.c_whitebox{
+		width: 90%;
+		height: auto;
+		margin: 20px auto 40px;
+		padding: 10px;
+		background-color: #fff;
+		background: rgba(255,255,255,0.7);/* 白の半透明（赤,緑,青,透明度） */
+		box-sizing: border-box;
+	}
+
+	.c_table{
+		width: 100%;
+		font-size: 16px;
+		padding: 0;
+/* 		padding: 0 100px;
+ */		margin-top: 28px;
+	}
+
+	.c_table th {
+	    width: 82px;
+	    text-align: left;
+	    padding: 0px;
+	    font-weight: bold;
+	    vertical-align: baseline;
+	}
+
+	.c_table td {
+	    text-align: left;
+	    padding: 0px 10px 10px;
+	    font-weight: 300;
+	}
+
+	.corporation {
+	    overflow: hidden;
+	    display: block;
+	}
+
+
+
+
+
+	.access{
+		background-color: #fff;
+		padding-top: 10%;
+	}
+
+	.a_sen{
+		max-width: 767px;
+		width: 100%;
+		font-size: 16px;
+		margin: 0 auto;
+		padding: 0 4.5%;
+		padding-top: 5%;
+		margin-bottom: 27px;
+		box-sizing: border-box;
+	}
+
+	.a_sen p{
+		text-align: left;
+	}
+
+	.a_title{
+		font-weight: bold;
+	}
+
+	.a_sen_sen{
+		margin-left: 15px;
+	}
+
+	.a_sen_bet{
+		margin-bottom: 20px;
+	}
+
+
+	.map{
+		display: none;
+	}
+
+	.map_sp{
+		display: block;
+	}
+
+
+
+
+
+	.news{
+		background-image: url('../img/SP/bg_news_01_sp.jpg');
+		background-repeat:no-repeat;
+		background-size:100% auto;/*この場合は高さが自動設定*/
+		background-size: cover;
+		padding: 6% 5% 5% 5%;
+	}
+
+	.n_whitebox{
+		max-width: 675px;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 5%;
+		padding: 3% 3% 4% 3%;
+		background-color: #fff;
+		background: rgba(255,255,255,0.8);/* 白の半透明（赤,緑,青,透明度） */
+		box-sizing: border-box;
+	}
+
+	.twitter_sp{
+		display: block;
+		max-width: 636px;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		border-radius: 25px;
+	}
+
+	.twitter{
+		display: none;
+	}
+
+
+
+
+	.contact{
+		width: 90%;
+		background-color: #f2f2f2;
+		padding: 0 5%;
+		padding-top: 25px;
+		padding-bottom: 1px;
+	}
+
+	.c_sen{
+		font-size: 16px;
+		margin: 20px 0 0 0;
+		text-align: left;
+	}
+
+	.tel_box{
+		font-size: 16px;
+		width: 100%;
+		height: auto;
+		background-color: #fff;
+		margin: 30px auto;
+		padding: 15px;
+		box-sizing: border-box;
+	}
+
+	.tel_sen{}
+
+	.tel_no{
+		font-size: 30px;
+		font-weight: bold;
+		color: #222;
+	}
+
+	.tel_no a{
+		color: #222;
+	}
+
+	.tel_no a:after{
+		color: #222;
+	}
+
+
+	.form_box{
+		max-width: 1000px;
+		width: 100%;
+		height: auto;
+		background-color: rgba(255,255,255,0.9);
+		margin: 30px auto;
+		padding: 50px 10px 40px 10px;
+		box-sizing: border-box;
+	}
+
+	.form_title{
+		font-size: 16px;
+	}
+
+
+	.f_table{
+		width: 100%;
+		margin: 0 auto;
+		font-size: 16px;
+	}
+
+	.f_table th,td{
+		display: block;
+	}
+
+	.f_table th {
+	    width: 100%;
+	    text-align: left;
+	    padding: 15px 0 0;
+	    font-weight: bold;
+	    border-top: none;
+	    box-sizing: border-box;
+	}
+
+	.f_table td {
+	    border: none;
+	    border-top: none;
+	    padding: 0px;
+	    line-height: 1.2;
+	}
+
+	.radio_btn1{
+		padding-bottom: 16px;
+	}
+
+	.radio_btn2{}
+
+	.txtarea_box{}
+
+	.txt_area{
+		width : 90%;
+		height : 120px;
+		margin-bottom : 12px;
+		background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#ffffff));
+		border: 1px solid #ccc;
+	}
+
+	.txt_box_s{
+		width: 90%;
+		height: 30px;
+		margin-bottom: 2px;
+		margin-right: 10px;
+		background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#ffffff));
+		border: 1px solid #ccc;
+	}
+
+	.txt_box_l{
+		width: 90%;
+		height: 30px;
+		margin-bottom: 2px;
+		margin-right: 10px;
+		background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#ffffff));
+		border: 1px solid #ccc;
+	}
+
+	.txt_sen{
+		font-size: 14px;
+	}
+
+
+/* ------------------------------------------------------------------------ */
+
+/* 線（h2）をスマホ用に消す。
+
+/* ------------------------------------------------------------------------ */
+
+
+	.s_line,.pcan_line,.c_line{
+		padding: 0;
+	}
+	.s_line:before,.s_line:after,.pcan_line:before,.pcan_line:after,.c_line:before,.c_line:after{
+		position: absolute;
+		top: 50%;
+		display: none;
+		width: 135px;
+		height: 2px;
+		background-color: #000;
+		content: '';
+	}
+
+/* ------------------------------------------------------------------------ */
+
+
+
+
+
+	.staffblog{
+		display: none;
+	}
+}
+
+/* ########### 768px〜1279px（タブレット） ########### */
+@media (min-width: 768px) and (max-width: 1270px) {
+	body{
+		background-color: #fff;
+
+	}
+
+	.f_sen{
+		display: none;
+	}
+
+	.i_left_sp{
+		margin-left: 3px;
+	}
+
+	.i_bottom_sp{
+		margin-bottom: 3px;
+	}
+
+	.staffblog{
+		display: none;
+	}
+
+	.staffblog_sp{
+		display: block;
+		width: 15%;
+		max-height: 55px;
+		background-color: #fff300;
+		margin: 1% 0;
+		border-radius: 5px;
+		box-sizing: border-box;
+		margin-left: calc(100% - 24%);
+		margin-right: calc(100% - 4%);
+	}
+
+	.staffblog_sp p{
+		width: 120px;
+		margin: 0 auto;
+		padding: 9px 0;
+		box-sizing: border-box;
+	}
+
+	
+
+
+}
+
